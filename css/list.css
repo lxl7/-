@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "iconfont";
+    /* Project id 3706807 */
+    src: url('../fonts/iconfont.woff2?t=1665801692809') format('woff2'),
+        url('../fonts/iconfont.woff?t=1665801692809') format('woff'),
+        url('../fonts/iconfont.ttf?t=1665801692809') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 3px 14px;
+}
+
+.sk-list {
+    float: left;
+}
+
+.sk-list li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+}
+
+.sk-list li a {
+    padding: 14px 29px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+
+.sk-con {
+    float: left;
+
+}
+
+.sk-con li {
+    float: left;
+    height: 45px;
+    line-height: 47px;
+    font-size: 14px;
+
+
+}
+
+.sk-con li a {
+    color: #666;
+    padding: 14px 23px;
+}
+
+.sk-con ul li:last-child a::after {
+
+    font-family: "iconfont";
+    content: "\e600";
+}
+
+/* 手机页面制作 */
+.sk-bd ul {
+    margin-top: 25px;
+}
+
+/* .sk-bd ul {
+    
+    height: 930px;
+} */
+
+.sk-bd ul li {
+    display: block;
+    float: left;
+    width: 290px;
+    height: 460px;
+    
+}
+.sk-bd0{
+    overflow: hidden;
+}
+.sk-bd {
+    float: left;
+    height: 491px;
+    margin-right: 10px;
+}
+
+.sk-bd li img {
+    width: 100%;
+}
+
+.up-d {
+    padding: 0 12px;
+}
+
+.schedule .yi,
+.jindu,
+.yu {
+    float: left;
+}
+.up-d .info{
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666666;
+}
+.up-d .price p{
+    font-size: 22px;
+    color: #e60012 !important;
+}
+.price{
+    margin-top: 10px;
+}
+.price p,del{
+    display: inline-block;
+}
+.price del{
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.price p::before{
+    content: '\e66b';
+    font-family: "iconfont";
+}
+.price del::before{
+    content: '\e66b';
+    font-family: "iconfont";
+}
+
+.schedule{
+    height: 21px;
+    font-size: 14px;
+}
+
+.schedule .jindu{
+    height: 12px;
+    margin: 0px 9px;
+    margin-top: 5px;
+    width: 132px;
+    border: 1px solid red;
+    border-radius: 4px;
+    margin-bottom: 0;
+    
+}
+.schedule .jindu .now{
+    
+    height: 100%;
+    width: 117px;
+    background-color:  #e60012;
+    border-radius: 4px 0 0 4px;
+}
+
+.down-d a{
+    text-align: center;
+    display: block;
+    width: 290px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: #b1191a;
+}
+
